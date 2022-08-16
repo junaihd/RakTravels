@@ -1,38 +1,642 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+    /* mobile css */
+.App{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar */
+
+nav{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.brand{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16rem;
+    margin-top: 1.5rem;
+}
+.logo{
+    width: 5rem;
+}
+.menu_icon{
+    width: 2rem;
+}
+.nav_menu{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background: #D3E6F8;
+}
+.close{
+    width: 100%;
+}
+.close-btn{
+    width: 1.8rem;
+    float: right;
+    margin: 3rem;
+    margin-right: 1.5rem;
+}
+ul{
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 11rem;
+}
+li{
+    margin-top: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* header */
+.header_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.header_content{
+    width: 90%;
+}
+.main_header_content{
+    width: 70%;
+    font-size: 1.6rem;
+}
+.sub_header_content{
+    width: 100%;
+    text-align: justify;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 0.98rem;
+}
+.btn_div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+}
+.btn_header{
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 1.8rem;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+.service_btn{
+    background: #C09A6B;
+    margin-bottom: 1rem;
+}
+.contact_btn{
+    background: #D3E6F8;
+}
+.header_img{
+    width: 100vw;
+    height: 16rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Destination section */
+
+.destination{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.destination_header{
+    width: 90%;
+    margin-top: 3rem;
+}
+.dest_head{
+    width: 80%;
+    font-size: 1.4rem;
+}
+.destination_wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin-top: 1.5rem;
+}
+.destination_wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.destination_wrapper .destination_card{
+    min-width: 9rem;
+    height: 11rem;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+}
+.destination_detail{
+    width: 75%;
+    height: 1.5rem;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.6rem;
+    margin-right: 0.4rem;
+    float: right;
+    border-radius: 1rem;
+}
+.dest_name{
+    font-size: 0.75rem;
+    margin-left: 0.2rem;
+}
+.dest_logo{
+    width: 1rem;
+    margin-left: 0.5rem;
+}
+.dubai{
+    background-image: url(./components/images/dubai.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.qatar{
+    background-image: url(./components/images/qatar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.saudi{
+    background-image: url(./components/images/saudi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.singapore{
+    background-image: url(./components/images/singapore.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.malasia{
+    background-image: url(./components/images/malasia.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+/* counts section */
+
+.counts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C09A6B;
+    margin-bottom: 3rem;
+}
+.counts_sec{
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: "rgb(41, 41, 41)";
+}
+.counts_detail{
+    text-align: center;
+}
+.num{
+    font-weight: 600;
+}
+.num_detail{
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* services section */
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.service_header{
+    width: 90%;
+}
+.service_head{
+    width: 70%;
+    font-size: 1.4rem;
+}
+.service_wrapper{
+    width: 90%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+.service_wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.service_wrapper .service_item{
+    min-width: 9rem;
+    height: 9rem;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-box-shadow: 0 0 5px rgb(235, 235, 235);
+            box-shadow: 0 0 5px rgb(235, 235, 235);
+}
+.first_item{
+    margin-left: 0.5rem;
+}
+.service_img{
+    width: 2.5rem;
+}
+.service_txt{
+    font-size: 0.8rem;
+    margin-top: 0.35rem;
+}
+
+/* Contact section */
+
+.contacts{
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)), url(./components/images/telebooth.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+.contact_header{
+    width: 90%;
+    margin-top: 1.5rem;
+}
+.contact_head{
+    width: 70%;
+    color: white;
+}
+.contact_card{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    height: 8rem;
+    border-radius: 1rem;
+    position: relative;
+    top: 1.5rem;
+    -webkit-box-shadow: 0 0 2px rgb(124, 124, 124);
+            box-shadow: 0 0 2px rgb(110, 110, 110);
+}
+.contact{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_img{
+    width: 1.6rem;
+}
+.contact_content{
+    display: none;
+}
+.contact_name{
+    margin-top: 0.3rem;
+}
+
+/* carousel section */
+
+.carousel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.carousel_header{
+    width: 90%;
+}
+.carousel_head{
+    font-size: 1.4rem;
+}
+.swiper{
+    width: 90%;
+    height: 15rem;
+    margin-top: 2rem;
+}
+.swiper_slide{
+    width: 100%;
+    height: 15rem;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    color: white !important;
+}
+.slider_img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer section */
+
+footer{
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    background: #C09A6B;
+    color: rgb(41, 41, 41);
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.footer_content{
+    width: 90%;
+}
+.footer_head{
+    font-size: 2rem;
+}
+.footer_subhead{
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 25%;
+    margin-left: 0.2rem;
+    margin-top: -0.3rem;
+}
+.footer_para{
+    font-size: 0.92rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+.footer_contact{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.footer_img{
+    width: 1.6rem;
+}
+.social_section{
+    width: 90%;
+    margin-top: 3rem;
+}
+.footer_service_head{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+.footer_services{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_serve{
+    margin: 0.4rem;
+    font-size: 0.9rem;
+}
+.tick{
+    margin-left: 0;
+}
+.social_links{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.socials{
+    text-decoration: none;
+}
+.social_img{
+    width: 1.6rem;
+}
+
+/* Desktop css here */
+
+@media screen and (min-width: 600px) {
+    nav{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav_menu{
+        position: relative;
+        width: 50%;
+        background: none;
+        height: auto;
+    }
+    ul{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0;
+    }
+    li{
+        margin-top: 0;
+        font-size: 0.9rem;
+    }
+    .close{
+        display: none;
+    }
+    .menu_icon{
+        display: none;
+    }
+    .brand{
+        width: 20%;
+        gap: 0;
+    }
+    .header_section{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    .header_img{
+        width: 45vw;
+        height: 25rem;
+        border-radius: 5rem 0 0 5rem;
+    }
+    .header_content{
+        width: 35%;
+        margin-left: 6.5rem;
+        margin-top: -1rem;
+    }
+    .btn_div{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .btn_header{
+        width: 48%;
+        border-radius: 1rem;
+        height: 2.8rem;
+        text-align: center;
+    }
+    .main_header_content{
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+    .sub_header_content{
+        font-size: 0.9rem;
+    }
+    .service_btn{
+        margin-bottom: 0rem;
+    }
+    .destination{
+        width: 90%;
+        margin-top: 3rem;
+    }
+    .destination_header{
+        width: 95%;
+    }
+    .dest_head{
+        width: 30%;
+    }
+    .destination_wrapper{
+        margin-top: 3.5rem;
+        width: 95%;
+        justify-content: space-between;
+        max-height: 15rem;
+        margin-bottom: 3rem;
+    }
+    .destination_wrapper .destination_card{
+        height: 13rem;
+        width: 11rem;
+        border-radius: 1rem;
+    }
+    .num{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .num_detail{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .services{
+        width: 90%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .service_header{
+        width: 95%;
+    }
+    .service_head{
+        margin-bottom: 2rem;
+    }
+    .service_wrapper{
+        width: 95%;
+        justify-content: space-between;
+    }
+    .service_item{
+        height: 10rem;
+        width: 10rem;
+        -webkit-box-shadow: 0 0 15px rgb(78, 78, 78);
+            box-shadow: 0 0 15px rgb(92, 92, 92);
+    }
+    .contacts{
+        height: 18rem;
+        margin-bottom: 6rem;
+    }
+    .contact_header{
+        margin-top: 3rem;
+        width: 85%;
+    }
+    .contact_card{
+        width: 85%;
+        height: 12rem;
+        top: 4rem;
+    }
+    .contact_name{
+        margin-top: 0.4rem;
+    }
+    .contact_content{
+        display: block;
+        font-size: 0.9rem;
+        margin-top: 0.6rem;
+        text-align: center;
+    }
+    .contact{
+        width: 20%;
+    }
+    .carousel{
+        display: none;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+    .footer{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer_content{
+        width: 45%;
+    }
+    .social_section{
+        width: 45%;
+        margin-bottom: -1.5rem;
+    }
+    .footer_services{
+        width: 90%;
+    }
 }
