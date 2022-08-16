@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/RakTravels/static/css/main.ad957bd8.css",
+    "main.js": "/RakTravels/static/js/main.04cc9f90.js",
+    "static/media/maldives.jpeg": "/RakTravels/static/media/maldives.e5f126a092d5aaa70d4f.jpeg",
+    "static/media/saudi.jpg": "/RakTravels/static/media/saudi.8a77d6bb2923d7f3b40b.jpg",
+    "static/media/telebooth.jpg": "/RakTravels/static/media/telebooth.462f5a350fd06c76c497.jpg",
+    "static/media/malasia.jpg": "/RakTravels/static/media/malasia.d01b82d483ddfa874c74.jpg",
+    "static/media/dubai.jpg": "/RakTravels/static/media/dubai.581a0ed64a00fab057ee.jpg",
+    "static/media/fare.jpeg": "/RakTravels/static/media/fare.ca926f6ab466774bc32d.jpeg",
+    "static/media/airindia.jpeg": "/RakTravels/static/media/airindia.42968b1b46f19460e7bd.jpeg",
+    "static/media/qatar.jpg": "/RakTravels/static/media/qatar.f1d07708537b35e5116c.jpg",
+    "static/media/singapore.jpg": "/RakTravels/static/media/singapore.ecc1bb1f25fccce43e33.jpg",
+    "static/media/header-image.jpg": "/RakTravels/static/media/header-image.cdcfbbfd0c5b4deff3dc.jpg",
+    "static/media/ticket.svg": "/RakTravels/static/media/ticket.57983bbb473b3fed946ca91ed808e8a9.svg",
+    "static/media/passport.svg": "/RakTravels/static/media/passport.6575147f5f87a9d5f416f1c04e7cdf6d.svg",
+    "static/media/package.svg": "/RakTravels/static/media/package.08b02c175ba7fcc6a20213724e245776.svg",
+    "static/media/visa.svg": "/RakTravels/static/media/visa.d681f3b0a6840a5826f812a26bb4c9e8.svg",
+    "static/media/hotel.svg": "/RakTravels/static/media/hotel.682212a812f4df53fd92c3a913003536.svg",
+    "static/media/whatsapp.svg": "/RakTravels/static/media/whatsapp.169dcb83b1f7eb7b0396685b44e71e25.svg",
+    "static/media/instagram.svg": "/RakTravels/static/media/instagram.78d3f7cf1abc389c2074a4031950c4ba.svg",
+    "static/media/location.svg": "/RakTravels/static/media/location.05f31d5d2ecf60a2ef243f3b4b9943b8.svg",
+    "static/media/marker.svg": "/RakTravels/static/media/marker.be28b0a64cc0687d2b08874895b75d29.svg",
+    "static/media/phone.svg": "/RakTravels/static/media/phone.60d522b7adeb1d107e361578d5c9a9be.svg",
+    "index.html": "/RakTravels/index.html",
+    "static/media/telegram.svg": "/RakTravels/static/media/telegram.b7e2083204f1578eb3dbf0552e50cc3a.svg",
+    "static/media/facebook.svg": "/RakTravels/static/media/facebook.257a9478587e7ac3d93bd22403cf8b40.svg",
+    "static/media/email.svg": "/RakTravels/static/media/email.da9d1bbd302a19501d78d8654067f818.svg",
+    "static/media/cross.svg": "/RakTravels/static/media/cross.0bc6da048ea47615deaa4fd1f061ba67.svg",
+    "static/media/menu-burger.svg": "/RakTravels/static/media/menu-burger.230ce7ebac47221f71ff65a4369a1d1e.svg",
+    "main.ad957bd8.css.map": "/RakTravels/static/css/main.ad957bd8.css.map",
+    "main.04cc9f90.js.map": "/RakTravels/static/js/main.04cc9f90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad957bd8.css",
+    "static/js/main.04cc9f90.js"
+  ]
+}
