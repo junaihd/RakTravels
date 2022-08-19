@@ -205,6 +205,31 @@ li{
     background-position: center;
     background-size: cover;
 }
+.kuwait{
+    background-image: url(./components/images/kuwait.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bahrain{
+    background-image: url(./components/images/bahrain.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.oman{
+    background-image: url(./components/images/oman.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.uk{
+    background-image: url(./components/images/uk.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.usa{
+    background-image: url(./components/images/usa.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 /* counts section */
 
@@ -554,9 +579,9 @@ footer{
         max-height: 15rem;
         margin-bottom: 3rem;
     }
-    .destination_wrapper .destination_card{
-        height: 13rem;
-        width: 11rem;
+    .destination_card{
+        height: 10rem;
+        width: 9rem;
         border-radius: 1rem;
     }
     .num{
@@ -581,6 +606,13 @@ footer{
     .service_wrapper{
         width: 95%;
         justify-content: space-between;
+    }
+    .service_img{
+        width: 2.5rem;
+    }
+    .service_txt{
+        font-size: 0.7rem;
+        margin-top: 0.4rem;
     }
     .service_item{
         height: 10rem;
