@@ -4,6 +4,10 @@ import visa from './images/visa.svg';
 import passport from './images/passport.svg';
 import pack from './images/package.svg';
 import hotel from './images/hotel.svg';
+import stamp from './images/stamp.svg';
+import certificate from './images/certificate.svg';
+import train from './images/rail.svg';
+import umrah from './images/umrah.svg';
 
 function Services() {
   return (
@@ -31,6 +35,22 @@ function Services() {
             <div className="service_item">
                 <img src={pack} alt="pack" className="service_img" />
                 <p className="service_txt">TOUR PACKAGES</p>
+            </div>
+            <div className="service_item">
+                <img src={certificate} alt="pack" className="service_img" />
+                <p className="service_txt">CERTIFICATE ATTEST</p>
+            </div>
+            <div className="service_item">
+                <img src={stamp} alt="pack" className="service_img" />
+                <p className="service_txt">VISA STAMPING</p>
+            </div>
+            <div className="service_item">
+                <img src={train} alt="pack" className="service_img" />
+                <p className="service_txt">TRAIN BOOKING</p>
+            </div>
+            <div className="service_item">
+                <img src={umrah} alt="pack" className="service_img" />
+                <p className="service_txt">HAJJ AND UMRAH</p>
             </div>
         </div>
     </section>
