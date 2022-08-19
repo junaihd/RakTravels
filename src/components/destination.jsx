@@ -11,7 +11,7 @@ function Destination() {
             <div className="destination_card dubai">
               <div className="destination_detail">
                 <img src={destination} alt="dest_logo" className="dest_logo" />
-                <p className="dest_name">Dubai</p>
+                <p className="dest_name">UAE</p>
               </div>
             </div>
             <div className="destination_card saudi">
@@ -24,6 +24,36 @@ function Destination() {
             <div className="destination_detail">
                 <img src={destination} alt="dest_logo" className="dest_logo" />
                 <p className="dest_name">Qatar</p>
+              </div>
+            </div>
+            <div className="destination_card kuwait">
+            <div className="destination_detail">
+                <img src={destination} alt="dest_logo" className="dest_logo" />
+                <p className="dest_name">Kuwait</p>
+              </div>
+            </div>
+              <div className="destination_card oman">
+            <div className="destination_detail">
+                <img src={destination} alt="dest_logo" className="dest_logo" />
+                <p className="dest_name">Oman</p>
+              </div>
+            </div>
+            <div className="destination_card bahrain">
+            <div className="destination_detail">
+                <img src={destination} alt="dest_logo" className="dest_logo" />
+                <p className="dest_name">Bahrain</p>
+              </div>
+            </div>
+            <div className="destination_card uk">
+            <div className="destination_detail">
+                <img src={destination} alt="dest_logo" className="dest_logo" />
+                <p className="dest_name">UK</p>
+              </div>
+            </div>
+            <div className="destination_card usa">
+            <div className="destination_detail">
+                <img src={destination} alt="dest_logo" className="dest_logo" />
+                <p className="dest_name">USA</p>
               </div>
             </div>
             <div className="destination_card malasia">
