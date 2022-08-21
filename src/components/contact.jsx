@@ -27,7 +27,7 @@ function Contact() {
                 <h6 className="contact_name">WHATSAPP</h6>
                 <p className="contact_content">+919947611113</p>
             </a>
-            <a className="contact" href='https://maps.app.goo.gl/ZPQFJaCkcGqDfzeQ9' title='Location'>
+            <a className="contact" href='https://goo.gl/maps/Mv2dk2PB1LzwcrgK9' title='Location'>
                 <img src={location} alt="location" className="contact_img" />
                 <h6 className="contact_name">LOCATION</h6>
                 <p className="contact_content">MPS Building 1st Floor, Vattamkulam</p>
